@@ -196,3 +196,119 @@ i.e. `h (3101) = 162 (middle 3 digit)`
     1. Each time the function does refer to itself, the argument of the function must be closer to a base value
 
 ## PREPOSITIONAL AND PREDICATE LOGIC
+
+### Propositional logic
+
+#### Applications are
+
+1) Translating English Sentences into logical statements
+2) System Specifications
+3) Logical Puzzles
+4) Boolean Searches
+5) Logic/Computer Circuits
+6) Inference and Decision Making
+7) Artificial Intelligence – Fuzzy Logic
+
+*Operator Precedence*
+![OP](https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-9b1b328cc6588215aa7b424fc426cfc1_l3.png)
+
+*TAUTOLOGIES* : Some propositions P(p, q, . . .) contain only T (True) in the last column of their truth tables or, in other words, they are true for any truth values of their variables
+
+*CONTRADICTIONS* : if propositions P(p q, . . .) contains only F in the last column of its truth table or, in other words, if it is false for any truth values of its variables.
+
+#### Important
+
+- Implication / if-then (→) is also called a conditional statement. It has two parts −
+  - Hypothesis, p
+  - Conclusion, q
+As mentioned earlier, it is denoted as `p → q`
+
+```
+“If you do your homework, you will not be
+punished.”
+
+Here, "you do your homework" is the hypothesis,p, and "you will not be punished" is the conclusion, q.
+```
+
+*Inverse* − An inverse of the conditional
+statement is the negation of both the hypothesis and the conclusion.
+
+- If the statement is “If p, then q”, the inverse will be “If not p, then not q”.
+- Thus the inverse of `p → q` is `¬p → ¬q`.
+
+```
+Example − The inverse of “If you do your
+homework, you will not be punished” is
+“If you do not do your homework, you will be
+punished.”
+```
+
+*Converse* − The converse of the conditional
+statement is computed by interchanging the
+hypothesis and the conclusion.
+
+- If the statement is “If p, then q”, the converse will be “If q, then p”. The converse of p → q is q → p.
+
+```
+Example − The converse of "If you do your
+homework, you will not be punished" is
+"If you will not be punished, you do your
+homework”.
+```
+
+*Contra-positive* − The contra-positive of the conditional is computed by interchanging the hypothesis and the conclusion of the inverse statement.
+
+- If the statement is “If p, then q”, the contrapositive will be “If not q, then not p”.
+- The contra-positive of p → q is ¬q → ¬p. (1 inverse ¬p →¬q. ; 2 converse : ¬q → ¬p)
+
+```
+Example − The Contra-positive of " If you do
+your homework, you will not be punished” is
+"If you are punished, you did not do your
+homework”.
+```
+
+##### NOTES
+
+```
+The proposition ¬ q → ¬ p is called the
+Contrapositive of the proposition p → q.
+
+They are logically equivalent. p → q ≡ ¬ q → ¬ p
+```
+
+#### Trute table for implication and double implication
+
+![tti](https://i.stack.imgur.com/R2aRo.png)
+![ttdi](https://www.chilimath.com/wp-content/uploads/2020/03/truth-table-of-a-biconditional-919x1024.gif)
+
+### Logical Eqivalence
+
+- Two propositions P(p, q, . . .) and Q(p, q, . . .) are said to be logically equivalent, or simply equivalent or equal, denoted by `P(p, q, . . .) ≡ Q(p, q, . . .)`if they have identical truth tables.
+- Example: ￢(p ∧ q) ≡ ￢ p ∨ ￢ q
+
+### Normal forms (conjunctive and disjunctive)
+
+### Validity of well-formed formula
+
+### Algebra of Propositions
+
+![aop](https://tutorialspoint.dev/image/quicklatex.com-67ea85d519042c10897afc964c777539_l3.png)
+
+### Predicate logic
+
+### Universal and existential quantifiers
+
+## Combinatorial Mathematics
+
+### Basic counting principles
+
+### Permutations and combinations
+
+### Pigeonhole principle
+
+### Recurrence relations
+
+### Solving homogeneous and non-homogeneous recurrence relations
+
+### Generating function

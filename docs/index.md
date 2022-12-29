@@ -130,6 +130,11 @@ pre-image is domain
 - Invertible ( Inverse) Function
 - Identity Function { A function f: A → A is identity relation if `f(a) = a` for all a belonging to A. }
 
+```
+For ONE-ONE we folow Horizontal Line Test.
+For ONTO we folow Vertical Line Test.
+```
+
 ### Composition of functions
 
 Consider functions `f: A → B` and `g: B → C`; that is, where the codomain of f is the domain of g. Then we may define a new function from A to C, called the composition of f and g and written `g◦f`, as follows:
@@ -143,7 +148,7 @@ Consider functions `f: A → B` and `g: B → C`; that is, where the codomain of
 ### Invertible function
 
 - A function f: A → B is invertible if and only if f is both one-to-one and onto.
-- In general, the inverse relation f^(−1) may not be a function. 
+- In general, the inverse relation f^(−1) may not be a function.
 
 ### Hashing functions
 
@@ -165,9 +170,29 @@ properties:
 1. Mid-square Method
 1. Universal or Folding Method
 
+*Division (MOD) Method*
+![MOD]()
+
+*Mid Square*<br>
+In this method firstly key is squared and then
+mid part of the result is taken as the index.
+For example: consider that if we want to place a
+record of 3101 and the size of table is 1000.
+So `3101*3101=9616201`<br>
+i.e. `h (3101) = 162 (middle 3 digit)`
+
+*Folding Method*
+
+- The folding method for constructing hash functions begins by dividing the item into equalsize pieces (the last piece may not be of equal size).
+- These pieces are then added together to give the resulting hash value.
+- For example, if our item was the phone number 436-555-4601, we would take the digits and divide them into groups of 2 (43,65,55,46,01). After the addition, `[43+65+55+46+01]`, we get `210`.
+- If we assume our hash table has `11` slots, then we need to perform the extra step of dividing by `11` and keeping the remainder
+
 ### Recursively defined functions
 
 - A function is said to be recursively defined if the function definition refers to itself.
 - The function definition must have the following two properties:
     1. There must be certain arguments, called base values, for which the function does not refer to itself.
     1. Each time the function does refer to itself, the argument of the function must be closer to a base value
+
+## PREPOSITIONAL AND PREDICATE LOGIC

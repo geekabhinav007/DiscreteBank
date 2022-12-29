@@ -171,7 +171,7 @@ properties:
 1. Universal or Folding Method
 
 *Division (MOD) Method*
-![MOD]()
+![MOD](https://raw.githubusercontent.com/geekabhinav007/DiscreteBank/main/docs/img/dis4.png)
 
 *Mid Square*<br>
 In this method firstly key is squared and then

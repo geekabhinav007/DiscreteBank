@@ -53,7 +53,8 @@ Eg. A={1,2,3,4,5} B={4,5,6,7,8}
 (A n B)= {4,5}
 A ⊕ B = (A u B) - (A n B) = { 1,2,3,6,7,8}
 ```
-
+### Laws of set theory:
+![laws](https://raw.githubusercontent.com/geekabhinav007/DiscreteBank/main/docs/img/dis3.png)
 ### INCLUSION–EXCLUSION PRINCIPLE
 
 Suppose A and B are finite sets and they are not disjoint.
